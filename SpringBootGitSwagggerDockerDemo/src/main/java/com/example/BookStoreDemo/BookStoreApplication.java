@@ -1,4 +1,4 @@
-package com.example.SpringBootGitSwagggerDockerDemo;
+package com.example.BookStoreDemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
