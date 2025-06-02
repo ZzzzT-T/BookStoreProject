@@ -28,10 +28,10 @@ public class BookController {
             .orElse(ResponseEntity.notFound().build());
     }
 
-   /*  @PostMapping
+    @PostMapping
     public Book createBook(@RequestBody Book book) {
         return bookService.createBook(book);
-    } */
+    }
 
     @PutMapping("/{id}")
     public ResponseEntity<Book> updateBook(@PathVariable int id, @RequestBody Book book) {
